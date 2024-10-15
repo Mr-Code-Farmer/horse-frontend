@@ -14,7 +14,7 @@ function App() {
 
   const fetchBooks = async () => {
     try {
-      const response = await fetch("http://3.20.39.248:8000/api/books/");
+      const response = await fetch("https://3.20.39.248:8000/api/books/");
       const data = await response.json();
       //console.log("response content-type: " + response.headers.get("content-type"));
       //console.log("response headers: " + response.headers.get("content-type"));
