@@ -14,7 +14,7 @@ function App() {
 
   const fetchBooks = async () => {
     try {
-      const response = await fetch("http://crimetea.com/api/books/");
+      const response = await fetch("http://127.0.0.1:8000/api/books/");
       const data = await response.json();
       //console.log("response content-type: " + response.headers.get("content-type"));
       //console.log("response headers: " + response.headers.get("content-type"));
